@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854323172956",
+    "project_id": "identity-check-392512",
+    "storage_bucket": "identity-check-392512.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854323172956:android:595ad4b1e1c23f0cc6b899",
+        "android_client_info": {
+          "package_name": "com.example.identity_check"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854323172956-t8fijkpti7pe8fr65utc9hrn4r5cfu71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdKNkTN38-YJh26zgT9jI3BZcO6WdnKUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854323172956-t8fijkpti7pe8fr65utc9hrn4r5cfu71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
