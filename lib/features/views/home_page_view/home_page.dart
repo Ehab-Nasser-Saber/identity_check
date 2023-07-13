@@ -47,6 +47,7 @@ class _HomePageViewState extends State<HomePageView> {
       },
       child: Scaffold(
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           backgroundColor: secondaryColor,
           title: const Text(
             'Please Enter Your Info',
