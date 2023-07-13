@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:googleapis/drive/v3.dart' as drive;
+// ignore: library_prefixes
 import 'package:google_sign_in/google_sign_in.dart' as signIn;
 
 import '../../../services/google_helper.dart';
@@ -27,6 +28,7 @@ class PhotoService {
         }
         final result = await driveApi.files.create(driveFile,
             uploadMedia: drive.Media(file.openRead(), file.lengthSync()));
+        // ignore: avoid_print
         print("Upload result: $result");
       } catch (e) {
         rethrow;

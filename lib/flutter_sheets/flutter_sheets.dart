@@ -27,7 +27,7 @@ class FlutterSheets {
       final firstRow = SheetsColumn.getColumns();
       _userSheet!.values.insertRow(1, firstRow);
     } catch (e) {
-      print('Init Error: $e');
+      rethrow;
     }
   }
 
